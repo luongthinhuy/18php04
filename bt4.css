@@ -1,0 +1,32 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	width: 80%;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+.tweets{
+	width: 25%;
+	height: 650px;
+	background: blue;
+	float: left;
+}
+.replies{
+	width: 25%;
+	height: 650px;
+	background: green;
+	float: left;
+}
+.search{
+	width: 25%;
+	height: 650px;
+	background: orange;
+	float: left;
+}
+.messages{
+	width: 25%;
+	height: 650px;
+	background: grey;
+	float: left;
+}

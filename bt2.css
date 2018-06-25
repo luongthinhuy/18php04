@@ -1,0 +1,57 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	width: 908px;
+}
+header{
+	height: 50px;
+	margin-bottom: 5px;
+	background: yellow;
+	color: black;
+	font-size: 25px;
+	text-align: justify-all;
+	line-height: 50px;
+}
+section{
+	height: 500px;
+	background: #fff;
+}
+.nav{
+	width: 295px;
+	height: 490px;
+	color: black;
+	font-size: 25px;
+	float: left;
+	margin: 5px 5px 5px 0px;
+	background: yellow;
+	line-height: 120px;
+}
+.article{
+	width: 295px;
+	color: black;
+	font-size: 25px;
+	float: left;
+	margin: 5px 5px 5px 5px;
+	background: yellow;
+	height: 490px;
+	line-height: 120px;
+}
+.ads{
+	width: 295px;
+	height: 490px;
+	color: black;
+	font-size: 25px;
+	float: left;
+	margin: 5px 0px 5px 5px;
+	background: yellow;
+	line-height: 120px;
+}
+footer{
+	height: 50px;
+	background: yellow;
+	margin-top: 5px;
+	color: black;
+	font-size: 30px;
+	font-size: 25px;
+	line-height: 50px;
+}
