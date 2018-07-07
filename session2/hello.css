@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+@font-face{
+	font-family: myFontP;
+	src: url(AristonNormal.ttf);
+}
+body{
+	width: 530px;
+	margin: 50px auto;
+	border: 2px solid red;
+	color: #fff;
+	font-size: 20px;
+}
+header{
+	background: blue;
+	height: 70px !important;
+	text-align: center;
+	line-height: 70px;
+	font-size: 30px;
+}
+section{
+	background: lightgrey;
+	height: 320px;
+	text-align: center;
+	color: black;
+}
+.orangetop{
+	text-align: justify;
+	text-indent: 20px;
+}
+#main .name{
+	text-transform: uppercase;
+	font-size: 30px;
+	text-shadow: 5px 5px 2px green;
+	color: red;
+}
+footer{
+	background: lightgreen;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	color: red;
+	font-family: myFontP;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+
+

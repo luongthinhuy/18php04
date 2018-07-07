@@ -1,0 +1,164 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url(header.png);
+	background-repeat: no-repeat;
+}
+ul li{
+	list-style: none;
+	float: left;
+}
+a{
+	color: #fff;
+}
+#wrapper-content{
+	width: 80%;
+	margin: 0 auto;
+}
+.logo{
+	float: left;
+	margin-right: 50px;
+}
+.clear{
+	clear: both;
+}
+.mxh{
+	float: left;
+}
+.mxh img{
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 2px;
+}
+.ngonngu{
+	float: right;
+	margin-top: 20px;
+}
+.content{
+	width: 100%;
+	background-color: #fff;
+	border: 2px grey solid;
+}
+.menu{
+	width: 100%;
+}
+.menu ul li{
+	background: #0855a1;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	width: 12.5%;
+	font-size: 14px;
+}
+.menu ul li .submenu {
+  display: none; 
+  background: white;
+  color: black;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+  text-align: center;
+}
+.menu ul li:hover{
+	background-color: #064481;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-weight: bold;
+}
+input#search-text{
+	width: 200px;
+	height: 30px;
+	padding-left: 10px;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	color: #484848;
+}
+input#search-top-submit{
+	background-position: right;
+	width: 30px;
+	height: 30px;
+	margin-left: -40px;
+	margin-top: 10px;
+}
+.timkiem{
+	background-color: lightgray;
+	width: 100%;
+	height: 40px;
+}
+.timkiem span{
+	line-height: 35px;
+	display: block;
+	float: left;
+}
+.timkiem div{
+	float: right;
+	margin-top: 3px;
+	margin-right: 5px;
+}
+#slide{
+	height: 300px;
+	width: 98%;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+footer{
+	width: 100%;
+	background:blue;
+}
+#footer-content{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	padding: 15px 0;
+	font-size: 18px;
+}
+.footer-foot{
+	width: 100%;
+	height: 10px;
+	background: #064481;
+}
+.news{
+	width: 49%;
+	float: left;
+	border: 1px solid #428bca;
+	border-radius: 3px;
+	margin: 3px;
+}
+.tittle{
+	width: 98.5%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #428bca;
+	border-radius: 3px 0;
+	color: #fff;
+	padding-left: 10px;
+}
+.info img{
+	width: 150px;
+	height: 100px;
+	float: left;
+}
+.info p{
+	color: #064481;
+	font-size: 18px;
+	font-weight: bold;
+}
+.ofthernews ul li a{
+	color: #064481;
+	text-decoration: none;
+}
+.ofthernews ul li{
+	color: #064481;
+	list-style-type: circle; 
+	padding-top: 5px;
+	padding-left: 5px;
+	margin-left: 20px;
+}
+
+
