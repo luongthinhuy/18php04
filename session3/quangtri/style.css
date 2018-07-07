@@ -2,6 +2,10 @@
 	padding: 0;
 	margin: 0;
 }
+@font-face{
+	font-family: myFont;
+	src: url(AristonNormal.ttf);
+}
 body{
 	background-image: url(header.png);
 	background-repeat: no-repeat;
@@ -20,6 +24,12 @@ a{
 .logo{
 	float: left;
 	margin-right: 50px;
+}
+p{
+	font-family: myFont;
+	padding-left: 165px;
+	font-weight: bold;
+	color: green;
 }
 .clear{
 	clear: both;
@@ -108,7 +118,7 @@ input#search-top-submit{
 }
 footer{
 	width: 100%;
-	background:blue;
+	background:#0855a1;
 }
 #footer-content{
 	width: 80%;
@@ -120,9 +130,16 @@ footer{
 }
 .footer-foot{
 	width: 100%;
-	height: 10px;
+	height: 23px;
 	background: #064481;
+	text-align: center;
+	line-height: 23px;
 }
+footer a{
+	text-decoration: none;
+	color: red;
+}
+
 .news{
 	width: 49%;
 	float: left;
@@ -152,6 +169,9 @@ footer{
 .ofthernews ul li a{
 	color: #064481;
 	text-decoration: none;
+}
+.ofthernews ul li a:hover{
+	color: red;
 }
 .ofthernews ul li{
 	color: #064481;
