@@ -51,30 +51,41 @@ p{
 .content{
 	width: 100%;
 	background-color: #fff;
-	border: 2px grey solid;
+	border: 2px solid grey;
 }
 .menu{
 	width: 100%;
-}
-.menu ul li{
-	background: #0855a1;
 	height: 50px;
-	text-align: center;
 	line-height: 50px;
-	width: 12.5%;
-	font-size: 14px;
-	float: left;
+}
+#menu ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	background: green;
+}
+#menu ul li{
+	display: inline-table;
 	position: relative;
 }
-.menu ul li a{
+#menu ul li a{
 	text-decoration: none;
+	text-transform: uppercase;
+	display: block;
+	padding: 5px 10px;
+	color: white;
 	font-weight: bold;
 }
-.menu ul li > .submenu{
+#menu a:hover{
+	background-color: violet;
+}
+.submenu{
 	display: none;
 	position: absolute;
+	padding: 0;
+	z-index:1;
 }
-.menu ul li > .submenu:hover{
+#menu li:hover .submenu{
 	display: block;
 }
 input#search-text{
@@ -179,9 +190,47 @@ footer a{
 }
 /**/
 @media screen and (max-width: 1280px){
-	#wrapper-content,header{
+	#wrapper{
+		width: 100%;
+	}
+	#wrapper-content{
 		width: 100%;
 	}
 }
+@media screen and (max-width: 768px){
+	#wrapper{
+		width: 80%;
+	}
+	#wrapper-content{
+		width: 100%;
+	}
+	.slide-box{
+		width: 600px;
+	}
+	.content-body{
+		width: 150%;
+	}
+	footer{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 480px){
+	#wrapper{
+		width: 70%;
+	}
+	#wrapper-content{
+		width: 100%;
+	}
+	.slide-box{
+		width: 350px;
+	}
+	.content-body{
+		width: 150%;
+	}
+	footer{
+		width: 80%;
+	}
+}
+
 
 
