@@ -8,30 +8,31 @@
 </head>
 <body>
 	<h1> Register Form</h1>
-	<div class="Success"> Register Form Success</div>
-	<h3>Họ và tên</h3>
+	<div id="bao">
+		<h3>Họ và tên</h3>
 		<p id="t_user"></p>
 		<input type="text" name="user"  id ="user" placeholder="Nhap ho ten">
-	<h3> Số điện thoại</h3>
+		<h3> Số điện thoại</h3>
 		<p id="t_phone"></p>
 		<input type="text" name="phone" id = "phone" placeholder="(+84)123456789">
-	<h3>Email</h3>
+		<h3>Email</h3>
 		<p id="t_email"></p>
 		<input type="text" name="email" id = "email" placeholder="Nhap Email" >
-	<h3>Ngày sinh</h3>
+		<h3>Ngày sinh</h3>
 		<p id="t_birthday"></p>
 		<input type="date" name="birthday" id = "birthday" placeholder="Nhap ngay sinh" >
-	<h3>Giới tính</h3>
+		<h3>Giới tính</h3>
 		<p id="t_Gender"></p>
 		<input type="radio" name="Gender" id="male">Male
 		<input type="radio" name="Gender" id="female">Female
-	<h3>Tiêu đề</h3>
+		<h3>Tiêu đề</h3>
 		<p id="t_tieude"></p>
 		<input type="text" name="tieude" placeholder="Nhap tieu de" id="tieude">
-	<h3>Nội dung</h3>
+		<h3>Nội dung</h3>
 		<p id="t_noidung"></p>
 		<input type="text" name="noidung" placeholder="Nhap noi dung" id="noidung">
-	<input type="button" name="register" value="Dang ky" onclick="validateForm();">
+		<input type="button" name="register" value="Dang ky" onclick="validateForm();">
+	</div>
 	<script type="text/javascript" src="common4.js"></script>
 </body>
 </html>
