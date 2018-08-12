@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Validate form HTML</title>
+	<link rel="stylesheet" type="text/css" href="validate_form.css">
+</head>
+<body>	
+	<div id = "container">
+		<h1>Register form</h1>
+		<div id="success">Register success!</div>
+		<form name="register" action="#" id="registerForm">
+			<div class="input-group">
+				<div class="label">Name</div>
+				<div class="input">
+					<input type="text" name="name" id="name" placeholder="Please input your name">
+				</div>
+				<span id="error_name"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Phone</div>
+				<div class="input">
+					<input type="text" name="phone" id="phone" placeholder="Please input your phone">
+				</div>
+				<span id="error_phone"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Gender</div>
+				<div class="input-radio">
+					<input type="radio" name="gender" id="male"> Male
+					<input type="radio" name="gender" id="female"> Female
+					<input type="radio" name="gender" id="other"> Other
+				</div>
+				<span id="error_gender"></span>
+			</div>
+			<div class="input-group">
+				<div class="input-button">
+					<input type="button" name="register" value="Register" onclick="validateRegister();">
+				</div>
+			</div>
+		</form>
+	</div>
+	<script type="text/javascript" src="validate_form.js"></script>
+</body>
+</html>

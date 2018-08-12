@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> hello JS</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon"  href="sthich.jpg">
+	<meta name="description" content="gioi thieu ve javascript">
+	<meta name="keywords" content="javascript">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="common.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		#img{
+			width: 300px;
+			height: 300px;
+		}
+		#demo2{
+			color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<!-- javascript co the thay doi noi dung html -->
+	<p id="demo1"> Hello Javascript</p>
+	<a href="#" onclick="document.getElementById('demo1').innerHTML = 'Hello PHP04' ">Change content</a>
+	<!-- javascript co the thay doi mot thuoc tính cua doi tương html-->
+	<img src="y.jpg" alt="" id="img">
+	<a href="#" onclick="document.getElementById('img') .src = 'bia.jpg'">Change img</a>
+	<!-- javascript co the thay doi style cua doi tương html-->
+	<p id="demo2"> Lương Thị Như Ý</p>
+	<a href="#" onclick="document.getElementById('demo2') .style.color = 'blue'"> Change style</a>
+	<!-- javascript co the an/hien doi tương html-->
+	<p id="demo3"> hello 18php04</p>
+	<a href="#" onclick="document.getElementById('demo3').style.display = 'none' "> Hide</a>
+	<a href="#" onclick="document.getElementById('demo3').style.display = 'block' "> Show</a>
+	
+</body>
+</html>

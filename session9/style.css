@@ -1,0 +1,15 @@
+*{
+	margin: 2 auto;
+	padding: 0;
+
+}
+#success{
+	display: none;
+	font-size: 30px;
+	color: green;
+	font-weight: bold;;
+}
+input{
+	margin: 0 auto;
+	font-size: 20px;
+}
