@@ -1,0 +1,19 @@
+table{
+	background-color: #808080;
+	margin: auto;
+}
+#Result{
+	width: 138px;
+}
+.btn{
+	width: 68px;
+	height: 64px;
+}
+#equ{
+	width: 68px;
+	height: 132px;
+}
+#zero{
+	width: 144px;
+	height: 64px;
+}

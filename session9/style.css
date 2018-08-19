@@ -1,8 +1,8 @@
 *{
-	margin: 2 auto;
+	margin: 0 ;
 	padding: 0;
-
 }
+
 #success{
 	display: none;
 	font-size: 30px;
@@ -11,5 +11,6 @@
 }
 input{
 	margin: 0 auto;
-	font-size: 20px;
+	font-size: 15px;
+	text-indent: 3px;
 }

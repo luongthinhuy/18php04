@@ -1,3 +1,4 @@
+// compress js
 function validateForm() {
 	var user  = document.getElementById('user').value;
 	var phone  = document.getElementById('phone').value;
