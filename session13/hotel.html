@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+	<title>Hotel</title>
+	<meta charset="UTF-8">
+	<link rel="shortcut icon"  href="img/drm.png">
+	<meta name="description" content="hotel">
+	<meta name="keywords" content="hotel">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="css/slicknav.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="js/modernizr.min.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+</head>
+<body>
+	<ul id="menu">
+		<li><a href="#"> Trang chủ</a></li>
+		<li><a href="#"> Đặt phòng</a></li>
+		<li><a href="#"> Nhà hàng</a></li>
+		<li><a href="#"> Hội họp</a></li>
+		<li><a href="#"> Dịch vụ</a></li>
+		<li><a href="#"> Khuyến mãi</a></li>
+		<li><a href="#"> Liên hệ</a></li>
+	</ul>
+	<div id="slider">
+		<div class="bxslider">
+		  <div><img class="slide_box" src="img/slider1.jpg" title="slider1"></div>
+		  <div><img class="slide_box" src="img/slider2.jpg" title="slider2"></div>
+		  <div><img class="slide_box" src="img/slider3.jpg" title="slider3"></div>
+		</div>
+		<div class="navButton" id="previous">&#10094;</div>
+		<div class="navButton" id="next">&#10095;</div>
+	</div>
+	<div id = "set_room">
+		<h1>Đặt phòng - Set Room</h1>
+		<div id="success"> Bạn đã đặt phòng thành công !!! <br> Register success !!!</div>
+		<form name="register" action="#" id="registerForm">
+			<div class="input-group">
+				<div class="label">Name</div>
+				<div class="input">
+					<input type="text" name="name" id="name" placeholder="Please input your name">
+				</div>
+				<span id="error_name"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Phone</div>
+				<div class="input">
+					<input type="text" name="phone" id="phone" placeholder="Please input your phone">
+				</div>
+				<span id="error_phone"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Day Come</div>
+				<div class="input">
+					<input type="date" name="day" id="come" placeholder="Please input your come">
+				</div>
+				<span id="error_day"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Day Leave</div>
+				<div class="input">
+					<input type="date" name="day" id="leave" placeholder="Please input your leave">
+				</div>
+				<span id="error_day"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Gender</div>
+				<div class="input-radio">
+					<input type="radio" name="gender" id="male"> Male
+					<input type="radio" name="gender" id="female"> Female
+					<input type="radio" name="gender" id="other"> Other
+				</div>
+				<span id="error_gender"></span>
+			</div>
+			<div class="input-group">
+				<div class="label">Room</div>
+				<div class="input-radio">
+					<input type="radio" name="room" id="1"> Single
+					<input type="radio" name="room" id="2"> Double
+					<input type="radio" name="room" id="3"> 3+
+				</div>
+				<span id="error_room"></span>
+			</div>
+			<div class="input-group">
+				<div class="input-button">
+					<input type="button" name="register" value="Register" onclick="validateRegister();">
+				</div>
+			</div>
+		</form>
+	</div>
+	<iframe width="80%" height="auto"
+    src="https://www.youtube.com/embed/vq3GlW82oRg"
+    frameborder="2" allowfullscreen="allowfullscreen">
+	</iframe>
+	<div id="footer">
+		<p>Thiết kế và phát triển: Lương Thị Như Ý <br> ĐC: 02 Thanh Sơn, Hải Châu, Đà Nẵng <br> ĐT: 0961475459 - Fax: 987654321 <br> Email: luongthinhuy98@gmail.com <br> Website: nhuy.vn</p>
+	</div>
+	<script src="js/jquery.slicknav.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>

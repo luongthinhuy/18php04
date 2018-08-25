@@ -1,0 +1,35 @@
+#menu{
+	height: 100px;
+	list-style: none;
+}
+ul li{
+	float: left;
+	padding: 10px 15px;
+	text-align: center;
+}
+.slicknav_menu {
+	display:none;
+}
+.bxslider img{
+	width: 180px;
+	height: 230px;
+}
+@media screen and (max-width: 480px) {
+	/* #menu is the original menu */
+	#menu {
+		display:none;
+	}
+	ul li{
+		float: none;
+	}
+	.slicknav_menu {
+		display:block;
+	}
+}
+#y{
+	width: 150px;
+	height: auto;
+	transform: rotate(45deg);
+	transition: 2s;
+	transform-origin: right;
+}
